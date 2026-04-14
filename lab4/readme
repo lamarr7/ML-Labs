@@ -1,7 +1,8 @@
 ### Lab 4: Data Quality Assessment & Preprocessing
-**Objective:** To evaluate the quality of the dataset and apply cleaning techniques to prepare the data for machine learning models.
+**Objective:** To evaluate dataset integrity and apply mathematical preprocessing techniques to prepare features for machine learning models.
 
 **Workflow Stages Implemented:**
-* **Data Quality Assessment:** Identifying missing values, outliers, and inconsistent data entries.
-* **Data Cleaning:** Handling null values and removing duplicates to improve data integrity.
-* **Feature Transformation:** Scaling or encoding features as part of the preprocessing pipeline.
+* **Handling Missing Values:** Applied **Median Imputation** to the 'rating' column to maintain data distribution while filling gaps.
+* **Outlier Detection:** Used the **IQR (Interquartile Range) Method** to mathematically define and identify outliers via box plots.
+* **Feature Scaling:** Implemented **Min-Max Scaling** to normalize 'rating' and 'split' columns into a standard $[0, 1]$ range.
+* **Exploratory Visualization:** Utilized **Box Plots** and **Heatmaps** to assess data quality and feature correlations.
