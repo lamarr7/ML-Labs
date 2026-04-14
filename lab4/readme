@@ -1,1 +1,7 @@
+### Lab 4: Data Quality Assessment & Preprocessing
+**Objective:** To evaluate the quality of the dataset and apply cleaning techniques to prepare the data for machine learning models.
 
+**Workflow Stages Implemented:**
+* **Data Quality Assessment:** Identifying missing values, outliers, and inconsistent data entries.
+* **Data Cleaning:** Handling null values and removing duplicates to improve data integrity.
+* **Feature Transformation:** Scaling or encoding features as part of the preprocessing pipeline.
